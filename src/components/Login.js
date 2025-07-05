@@ -184,12 +184,6 @@ export default function Login({ onLogin }) {
           </button>
         </div>
 
-        {/* Demo Credentials */}
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-          <p className="text-xs text-gray-600 text-center">
-            <strong>Demo:</strong> test@demo.com / password123
-          </p>
-        </div>
       </div>
     </div>
   );
