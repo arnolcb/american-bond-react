@@ -3,7 +3,7 @@ import { Calculator, DollarSign, TrendingUp, FileText, Building, AlertCircle } f
 
 export default function BondCalculator() {
   const [inputs, setInputs] = useState({
-    // Datos básicos
+    // Datos hardcode para el ejemplo del bono
     empresaEmisora: 'Corporación ABC S.A.',
     moneda: 'PEN',
     valorNominal: 200000, // Cambiado de precioVenta

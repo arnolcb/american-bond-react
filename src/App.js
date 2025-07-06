@@ -1,4 +1,3 @@
-// App.js - Componente principal con autenticación
 import React, { useState, useEffect } from 'react';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from './firebase';
